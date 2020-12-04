@@ -1,0 +1,15 @@
+[package]
+name = "ctct"
+version = "0.1.0"
+authors = ["Connor Fitzgerald <connorwadefitzgerald@gmail.com>"]
+edition = "2018"
+description = "Library for dealing with containers of compressed textures (dds, ktx, etc)"
+readme = "../README.md"
+repository = "https://github.com/BVE-Reborn/ctct"
+license = "MIT OR Apache-2.0 OR Zlib"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ddsfile = "0.4"
+ktx = "0.3"
